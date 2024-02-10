@@ -1,0 +1,1 @@
+python "X:\dev\anaconda3\envs\thesis\Lib\site-packages\tensorflow\tools\compatibility\tf_upgrade_v2_main.py" --intree . --outtree .\deep_rewiring_v2\ --reportfile report.txt

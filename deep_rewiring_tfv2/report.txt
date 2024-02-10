@@ -1,0 +1,299 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 4 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+================================================================================
+Input tree: '.'
+================================================================================
+--------------------------------------------------------------------------------
+Processing file '.\\script_mnist_deep_rewiring.py'
+ outputting to '.\\deep_rewiring_v2\\script_mnist_deep_rewiring.py'
+--------------------------------------------------------------------------------
+
+11:8: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+12:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+13:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+14:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+15:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+16:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+18:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+19:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+20:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+21:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+22:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+23:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+24:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+38:14: INFO: Renamed 'tf.assign' to 'tf.compat.v1.assign'
+46:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+47:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+60:9: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+60:9: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+76:12: INFO: Renamed 'tf.where' to 'tf.compat.v1.where'
+90:16: INFO: Added keywords to args of function 'tf.reduce_sum'
+103:9: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+103:9: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+107:22: INFO: Added keywords to args of function 'tf.reduce_sum'
+111:36: INFO: Renamed 'tf.where' to 'tf.compat.v1.where'
+113:23: INFO: Added keywords to args of function 'tf.shape'
+114:30: INFO: Renamed 'tf.random_shuffle' to 'tf.random.shuffle'
+119:23: INFO: Renamed 'tf.scatter_nd_update' to 'tf.compat.v1.scatter_nd_update'
+128:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+128:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+133:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+133:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+138:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+138:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+146:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+146:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+147:20: INFO: Added keywords to args of function 'tf.reduce_mean'
+147:35: INFO: Changing labels arg of tf.nn.softmax_cross_entropy_with_logits to tf.stop_gradient(labels). Please check this transformation.
+
+148:26: INFO: Added keywords to args of function 'tf.argmax'
+148:48: INFO: Added keywords to args of function 'tf.argmax'
+149:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+152:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+152:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+153:22: INFO: Renamed 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+156:30: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+156:75: INFO: Added keywords to args of function 'tf.shape'
+158:28: INFO: Renamed 'tf.assign_add' to 'tf.compat.v1.assign_add'
+159:20: INFO: Renamed 'tf.assign_add' to 'tf.compat.v1.assign_add'
+168:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+168:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+169:16: INFO: Added keywords to args of function 'tf.reduce_sum'
+170:21: INFO: Added keywords to args of function 'tf.size'
+172:52: INFO: Added keywords to args of function 'tf.reduce_sum'
+172:78: INFO: Added keywords to args of function 'tf.reduce_sum'
+175:7: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+176:9: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file '.\\script_mnist_deep_rewiring_with_global_constraint.py'
+ outputting to '.\\deep_rewiring_v2\\script_mnist_deep_rewiring_with_global_constraint.py'
+--------------------------------------------------------------------------------
+
+11:8: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+12:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+13:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+14:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+15:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+16:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+18:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+19:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+20:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+21:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+22:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+23:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+24:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+38:14: INFO: Renamed 'tf.assign' to 'tf.compat.v1.assign'
+46:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+47:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+51:9: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+51:9: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+55:48: INFO: Added keywords to args of function 'tf.size'
+56:37: INFO: Added keywords to args of function 'tf.reduce_sum'
+63:26: INFO: Added keywords to args of function 'tf.reduce_sum'
+66:26: INFO: Added keywords to args of function 'tf.reduce_sum'
+80:27: INFO: Renamed 'tf.distributions.Categorical' to 'tf.compat.v1.distributions.Categorical'
+82:22: INFO: Added keywords to args of function 'tf.reduce_sum'
+96:9: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+96:9: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+112:12: INFO: Renamed 'tf.where' to 'tf.compat.v1.where'
+127:16: INFO: Added keywords to args of function 'tf.reduce_sum'
+141:9: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+141:9: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+147:36: INFO: Renamed 'tf.where' to 'tf.compat.v1.where'
+149:23: INFO: Added keywords to args of function 'tf.shape'
+150:30: INFO: Renamed 'tf.random_shuffle' to 'tf.random.shuffle'
+155:23: INFO: Renamed 'tf.scatter_nd_update' to 'tf.compat.v1.scatter_nd_update'
+162:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+162:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+167:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+167:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+172:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+172:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+180:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+180:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+181:20: INFO: Added keywords to args of function 'tf.reduce_mean'
+181:35: INFO: Changing labels arg of tf.nn.softmax_cross_entropy_with_logits to tf.stop_gradient(labels). Please check this transformation.
+
+182:26: INFO: Added keywords to args of function 'tf.argmax'
+182:48: INFO: Added keywords to args of function 'tf.argmax'
+183:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+186:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+186:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+187:22: INFO: Renamed 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+190:30: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+190:75: INFO: Added keywords to args of function 'tf.shape'
+192:28: INFO: Renamed 'tf.assign_add' to 'tf.compat.v1.assign_add'
+193:20: INFO: Renamed 'tf.assign_add' to 'tf.compat.v1.assign_add'
+205:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+205:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+206:16: INFO: Added keywords to args of function 'tf.reduce_sum'
+207:21: INFO: Added keywords to args of function 'tf.size'
+209:52: INFO: Added keywords to args of function 'tf.reduce_sum'
+209:78: INFO: Added keywords to args of function 'tf.reduce_sum'
+212:7: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+213:9: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file '.\\script_mnist_deep_rewiring_with_sparse_matrices.py'
+ outputting to '.\\deep_rewiring_v2\\script_mnist_deep_rewiring_with_sparse_matrices.py'
+--------------------------------------------------------------------------------
+
+11:8: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+12:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+13:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+14:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+15:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+16:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+18:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+19:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+20:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+21:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+22:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+23:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+44:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+45:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+57:9: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+57:9: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+61:17: INFO: Renamed 'tf.random_uniform' to 'tf.random.uniform'
+62:18: INFO: Renamed 'tf.random_uniform' to 'tf.random.uniform'
+73:12: INFO: Renamed 'tf.sparse_reorder' to 'tf.sparse.reorder'
+86:9: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+86:9: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+89:31: INFO: Added keywords to args of function 'tf.size'
+95:17: INFO: Renamed 'tf.random_uniform' to 'tf.random.uniform'
+96:18: INFO: Renamed 'tf.random_uniform' to 'tf.random.uniform'
+98:22: INFO: Renamed 'tf.where' to 'tf.compat.v1.where'
+99:22: INFO: Renamed 'tf.assign' to 'tf.compat.v1.assign'
+102:19: INFO: Renamed 'tf.random_uniform' to 'tf.random.uniform'
+104:19: INFO: Renamed 'tf.where' to 'tf.compat.v1.where'
+105:19: INFO: Renamed 'tf.assign' to 'tf.compat.v1.assign'
+108:17: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+109:17: INFO: Renamed 'tf.where' to 'tf.compat.v1.where'
+110:17: INFO: Renamed 'tf.assign' to 'tf.compat.v1.assign'
+117:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+117:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+119:10: INFO: Renamed 'tf.sparse_tensor_dense_matmul' to 'tf.sparse.sparse_dense_matmul'
+122:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+122:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+124:10: INFO: Renamed 'tf.sparse_tensor_dense_matmul' to 'tf.sparse.sparse_dense_matmul'
+127:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+127:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+129:21: INFO: Renamed 'tf.sparse_tensor_dense_matmul' to 'tf.sparse.sparse_dense_matmul'
+130:21: INFO: Added keywords to args of function 'tf.transpose'
+138:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+138:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+139:20: INFO: Added keywords to args of function 'tf.reduce_mean'
+139:35: INFO: Changing labels arg of tf.nn.softmax_cross_entropy_with_logits to tf.stop_gradient(labels). Please check this transformation.
+
+140:26: INFO: Added keywords to args of function 'tf.argmax'
+140:48: INFO: Added keywords to args of function 'tf.argmax'
+141:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+144:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+144:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+145:22: INFO: Renamed 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+148:30: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+148:75: INFO: Added keywords to args of function 'tf.shape'
+150:28: INFO: Renamed 'tf.assign_add' to 'tf.compat.v1.assign_add'
+151:20: INFO: Renamed 'tf.assign_add' to 'tf.compat.v1.assign_add'
+160:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+160:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+162:33: INFO: Added keywords to args of function 'tf.reduce_sum'
+168:26: INFO: Added keywords to args of function 'tf.reduce_sum'
+168:54: INFO: Added keywords to args of function 'tf.reduce_sum'
+171:7: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+172:9: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file '.\\script_mnist_soft_deep_rewiring.py'
+ outputting to '.\\deep_rewiring_v2\\script_mnist_soft_deep_rewiring.py'
+--------------------------------------------------------------------------------
+
+11:8: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+13:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+14:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+15:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+17:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+18:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+19:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+20:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+21:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+22:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+24:0: INFO: Renamed 'tf.app.flags' to 'tf.compat.v1.app.flags'
+40:9: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+40:9: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+63:12: INFO: Renamed 'tf.where' to 'tf.compat.v1.where'
+68:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+69:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+74:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+74:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+79:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+79:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+84:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+84:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+95:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+95:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+96:20: INFO: Added keywords to args of function 'tf.reduce_mean'
+96:35: INFO: Changing labels arg of tf.nn.softmax_cross_entropy_with_logits to tf.stop_gradient(labels). Please check this transformation.
+
+97:26: INFO: Added keywords to args of function 'tf.argmax'
+97:48: INFO: Added keywords to args of function 'tf.argmax'
+98:15: INFO: Added keywords to args of function 'tf.reduce_mean'
+100:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+100:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+101:18: INFO: Renamed 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+104:33: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+104:56: INFO: Added keywords to args of function 'tf.shape'
+110:19: INFO: Renamed 'tf.assign' to 'tf.compat.v1.assign'
+114:5: INFO: `name` passed to `name_scope`. Because you may be re-entering an existing scope, it is not safe to convert automatically,  the v2 name_scope does not support re-entering scopes by name.
+
+114:5: INFO: Renamed 'tf.name_scope' to 'tf.compat.v1.name_scope'
+115:16: INFO: Added keywords to args of function 'tf.reduce_sum'
+116:21: INFO: Added keywords to args of function 'tf.size'
+118:52: INFO: Added keywords to args of function 'tf.reduce_sum'
+118:78: INFO: Added keywords to args of function 'tf.reduce_sum'
+121:7: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+122:9: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
